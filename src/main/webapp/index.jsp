@@ -3,11 +3,10 @@
 <title>Hello World!</title>
 </head>
 <body>
-	<h1>Hello World!</h1>
+	<h1>The cake tastes delicious</h1>
 	<p>
-		It is now Devops class
-		Good Morning
-		helloo
+		Happy Birthday</br>
+		One year old</br>
 		<%= new java.util.Date() %></p>
 	<p>
 		You are coming from 
