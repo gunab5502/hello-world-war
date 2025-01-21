@@ -1,5 +1,6 @@
 #!/bin/bash
 
+rm -rf hello-world-war
 git clone https://github.com/gunab5502/hello-world-war.git
 cd hello-world-war
 mvn clean package
