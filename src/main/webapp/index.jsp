@@ -6,6 +6,8 @@
 	<h1>Hello World!</h1>
 	<p>
 		It is now Devops class
+		Good Morning
+		helloo
 		<%= new java.util.Date() %></p>
 	<p>
 		You are coming from 
