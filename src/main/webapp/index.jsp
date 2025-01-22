@@ -7,7 +7,7 @@
 	<p>
 		Happy Birthday
 	<p>
-		One year old
+		Hellooooo
 	<p>
 		Sengil Chukahae
 		<%= new java.util.Date() %></p>
