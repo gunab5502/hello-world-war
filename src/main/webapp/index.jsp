@@ -3,11 +3,11 @@
 <title>Hello World!</title>
 </head>
 <body>
-	<h1>The cake tastes delicious</h1>
+	<h1>Good Morning</h1>
 	<p>
-		Happy Birthday
+		Hello
 	<p>
-		Helloooo
+		Hii Guna
 	<p>
 		Sengil Chukahae
 		<%= new java.util.Date() %></p>
