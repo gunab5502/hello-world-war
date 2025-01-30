@@ -9,7 +9,7 @@
 	<p>
 		Hii Guna
 	<p>
-		Sengil Chukahae
+		Its a New Day
 		<%= new java.util.Date() %></p>
 	<p>
 		You are coming from 
