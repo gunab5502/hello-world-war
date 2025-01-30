@@ -8,6 +8,8 @@
 		Hello
 	<p>
 		Hii Guna
+		How you doing
+		What are you doing
 	<p>
 		Its a New Day
 		<%= new java.util.Date() %></p>
