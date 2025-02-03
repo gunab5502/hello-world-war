@@ -7,9 +7,8 @@
 	<p>
 		Hello
 	<p>
-		abcabcabc
-		hanguel
 		How you doing
+	<p>
 		What are you doing
 	<p>
 		Its a New Day
