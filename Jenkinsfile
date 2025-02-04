@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent { label 'builder'}
     stages 
     {
         stage('checkout') {
@@ -11,6 +11,11 @@ pipeline {
          stage('build') {
             steps {
                 sh 'mvn clean package'
+            }
+        }
+        stage('publish') {
+            steps {
+                sh 'mvn clean deploy'
             }
         }
     }
