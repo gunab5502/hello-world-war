@@ -1,13 +1,15 @@
 pipeline {
     agent {label 'builder'} 
     stages {
-        stage('testing example') {
+        stage('checkout') {
+        agent {label 'builder'}
             steps {
                 sh 'ls'
                 sh 'pwd'
             }
         }
-        stage('build example') {
+        stage('build') {
+        agent {label 'builder'}
             steps {
                 sh 'mvn clean package'
             }
