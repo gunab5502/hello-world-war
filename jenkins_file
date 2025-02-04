@@ -1,1 +1,16 @@
-
+pipeline {
+    agent { label 'builder' } 
+    stages {
+        stage('testing example') {
+            steps {
+                sh 'ls'
+                sh 'pwd'
+            }
+        }
+        stage('build example') {
+            steps {
+                sh 'mvn clean package'
+            }
+        }
+    }
+}
