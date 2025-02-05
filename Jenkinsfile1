@@ -16,7 +16,7 @@ pipeline {
          stage('build') {
              agent { label 'builder'}
             steps {
-                Stage_CheckOut()
+                Stage_Build()
             }
         }
          stage('publish') { 
