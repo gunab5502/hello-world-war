@@ -1,5 +1,5 @@
 pipeline {
-	agent { label 'builder-node' }
+	agent { label 'node1' }
 	
 	stages
 	{
@@ -27,7 +27,7 @@ pipeline {
 		}
 		
 		stage('deploy') {
-			agent { label 'deployer' }
+			agent { label 'node2' }
 			steps {
 				sh """
  				sudo docker ps
